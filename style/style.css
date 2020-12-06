@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  color: white;
+}
+
+body .container-fluid {
+  background-color: #9fc3fa;
+  min-height: 50em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container-fluid .first-container {
+  background-color: #000d4a;
+  min-height: 40rem;
+  border-radius: 15px;
+}
+
+body .container-fluid .first-container .second-container {
+  margin-top: 1rem;
+  width: 90%;
+}
+
+body .container-fluid .first-container .second-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .upper {
+  margin-top: 2rem;
+  color: white;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .upper h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  word-spacing: -1px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .upper span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #9c9c9c;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact {
+  margin-top: 50px;
+  min-height: 15em;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row1 {
+  padding: 15px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row1 img {
+  width: 25px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row1 span {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row1:hover {
+  border: solid blue 2px;
+  border-radius: 5px;
+  background-color: #021158;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row2 {
+  padding: 15px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row2 img {
+  width: 25px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row2 span {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row2:hover {
+  border: solid blue 2px;
+  border-radius: 5px;
+  background-color: #021158;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row3 {
+  padding: 15px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row3 img {
+  width: 25px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row3 span {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .contact .row3:hover {
+  border: solid blue 2px;
+  border-radius: 5px;
+  background-color: #021158;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .icons img {
+  width: 30px;
+}
+
+body .container-fluid .first-container .second-container .row .left-side .icons img:hover {
+  border-radius: 50%;
+  background-color: #0775ff;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .container-fluid .first-container .second-container .row .right-side {
+  margin-top: 1em;
+  color: black;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form {
+  background-color: #fff;
+  min-height: 32em;
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form label {
+  color: darkblue;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input1 {
+  border: solid #bbbbbb 2px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input1:hover {
+  border: #4365ff solid 2px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input1 img {
+  width: 20px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input1 input {
+  border: none;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input2 {
+  border: solid #bbbbbb 2px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input2:hover {
+  border: #4365ff solid 2px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input2 img {
+  width: 20px;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .input2 input {
+  border: none;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form .textarea textarea {
+  border: none;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 10em;
+}
+
+body .container-fluid .first-container .second-container .row .right-side .form button {
+  background-color: #0775ff;
+  border: none;
+  border-radius: 10px;
+  float: right;
+  width: 50%;
+  height: 50px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
